@@ -1,0 +1,46 @@
+
+
+#headerTitlePage{
+  background: #ff00009e;
+  border-radius: 9px;
+  text-align: center;
+  padding: 10px 20px;
+  background: red;
+  color: green;
+}
+body{
+  background: url('~/Images/twister_map.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#simon{
+  vertical-align: middle;
+  height: 500px;
+  width: 376px;
+}
+
+#startGame{
+  margin-top: 311px;
+  margin-left: 144px;
+  border-radius: 86px;
+  background: green;
+  color: red;
+  font-size: 36px;
+  height: 179px;
+  width: 179px;
+}
+
+
+.instructions{
+  margin-top: 308px;
+  background: green;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 89px;
+  height: 179px;
+  width: 178px;
+  color: red;
+}
