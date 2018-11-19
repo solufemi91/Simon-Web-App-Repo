@@ -9,7 +9,7 @@
   color: green;
 }
 body{
-  background: url('~/Images/twister_map.png');
+  background: url('../Images/twister_map.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
