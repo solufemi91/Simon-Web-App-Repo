@@ -2,26 +2,9 @@
     ViewBag.Title = "Game page";
 }
 
-<button id="startButton" type="button" name="button">Start</button>
-<h2 id="promptToEnter"></h2>
-<p id="numberOfClicksMade"></p>
-<h1 id='congratulations'></h1>
-<p id='scoreboard'>Score:</p>
-<div class="clickRegisterDiv">
-    <h2 id='clickRegister'></h2>
+<div id="app">
+    <game></game>
 </div>
-<table>
-    <thead>
-        <tr>
-            <td class="boxes" id="red" data-num="0"></td>
-            <td class="boxes" id="blue" data-num="1"></td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td class="boxes" id="green" data-num="2"></td>
-            <td class="boxes" id="yellow" data-num="3"></td>
-        </tr>
-    </tbody>
-</table>
-<a href="/"><button id="back" type="button" name="button">Go back to the homepage</button></a>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script src="~/Scripts/main.js" async></script>
